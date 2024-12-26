@@ -1,0 +1,18 @@
+--- Fragment #1 0 chars ---
+
+
+--- Fragment #2 7 chars ---
+<p></p>
+
+--- Fragment #3 65 chars ---
+<p><b><a href="https://www.google.com/">Google search</a></b></p>
+
+--- Fragment #4 88 chars ---
+<p><b><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li></ul></b></p>
+
+--- Fragment #5 91 chars ---
+<p><b><ul><li>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</li></ul></b></p>
+
+--- Fragment #6 84 chars ---
+<p><b><ul><li>Duis aute irure dolor in reprehenderit in voluptate.</li></ul></b></p>
+
