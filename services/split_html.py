@@ -2,9 +2,11 @@ from typing import List
 from bs4 import BeautifulSoup
 from models.html_fragment import HtmlFragment
 
+
 class HtmlSplitError(Exception):
     """Custom exception for HTML splitting errors."""
     pass
+
 
 def split_html(html_content: str, max_length: int) -> List[HtmlFragment]:
     """
@@ -14,6 +16,12 @@ def split_html(html_content: str, max_length: int) -> List[HtmlFragment]:
     :return: List of HtmlFragment objects.
     :raises HtmlSplitError: If max_length is too small or a fragment is empty.
     """
+    if not html_content.strip():  # Check for empty or whitespace-only HTML
+        raise ValueError("Input HTML cannot be empty")
+
+    if not isinstance(max_length, int) or max_length <= 0:
+        raise ValueError("Max length must be a positive integer")
+
     if max_length < 10:  # Adjust threshold based on your requirements.
         raise HtmlSplitError("max_length is too small to process meaningful fragments.")
 

@@ -20,8 +20,9 @@ HTML-тегов. Поддерживается настройка максима�
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/yourusername/html-splitter.git
+   git clone https://github.com/maxoralbay/testjob-splitHtml.git
    cd html-splitter
+
 ```
 
 1. Установите зависимости с помощью Poetry:
